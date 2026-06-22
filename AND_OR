@@ -1,0 +1,5 @@
+SELECT * FROM students
+WHERE branch = 'AI' AND age = 19;
+
+SELECT * FROM students
+WHERE branch = 'CSE' OR age = 12;
