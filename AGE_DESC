@@ -1,0 +1,12 @@
+CREATE TABLE students(
+  id INT,
+  name TEXT,
+  age INT,
+  branch TEXT
+); 
+INSERT INTO students values(101,'TWINKLE',19,'AI');
+INSERT INTO students values(102,'DAKSH',12,'AI');
+INSERT INTO students values(103,'RENU',123,'AI');
+
+SELECT * FROM students
+ORDER BY age DESC
