@@ -1,0 +1,12 @@
+create table students(
+  id int,
+  name text,
+  age int,
+  branch text
+);
+
+insert into students values(101,'twinkle',19,'ai');
+insert into students values(102,'daksh',19,'ai');
+insert into students values(103,'aryan',19,'ai');
+
+select MAX(age) from students;
