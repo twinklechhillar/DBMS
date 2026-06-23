@@ -1,0 +1,4 @@
+select AVG(age) from students;
+
+select MAX(age) from students;
+
