@@ -1,0 +1,13 @@
+CREATE TABLE students(
+  id INT,
+  name TEXT,
+  age INT,
+  branch TEXT
+);
+INSERT INTO students VALUES(101,'TWINKLE',19,'CSE');
+INSERT INTO students VALUES(102,'ARYAN',20,'CSE');
+INSERT INTO students VALUES(103,'DAKSH',17,'AI');
+
+SELECT branch, COUNT(*)
+FROM students
+GROUP BY branch;
