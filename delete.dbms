@@ -1,0 +1,17 @@
+CREATE TABLE students(
+  id INT,
+  name TEXT,
+  age INT,
+  branch TEXT   
+);
+
+INSERT INTO students VALUES(101,"TWINKLE",19,"AI");
+INSERT INTO students VALUES(102,"DAKSH",12,"CSE");
+INSERT INTO students VALUES(103,"ARYAN",19,"AI");
+
+DELETE FROM students
+WHERE id =102;
+
+for all students...
+DELETE FROM students
+ WHERE branch ="AI";
