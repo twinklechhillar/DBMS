@@ -1,0 +1,11 @@
+SELECT branch, AVG(age)
+FROM students
+GROUP BY branch
+HAVING AVG(age)>15;
+
+
+
+SELECT branch, COUNT(*)
+FROM students
+GROUP BY branch
+HAVING COUNT(*)>1;
