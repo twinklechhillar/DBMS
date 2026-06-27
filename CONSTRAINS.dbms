@@ -1,0 +1,9 @@
+CREATE TABLE students(
+  id INT PRIMARY KEY,
+  name TEXT NOT NULL,
+  email TEXT UNIQUE,
+  year INT DEFAULT 1
+);
+
+INSERT INTO students VALUES(101,'TWINKLE','twinkle@gmail.com',1);
+INSERT INTO students VALUES(102,'DAKSH','daksh@gmail.com',1);
